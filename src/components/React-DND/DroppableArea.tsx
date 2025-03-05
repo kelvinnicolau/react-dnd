@@ -27,7 +27,7 @@ const DroppableArea: React.FC<DroppableAreaProps> = ({ onDrop, children }) => {
       style={{
         padding: "20px",
         backgroundColor: "#f5f5f5",
-        border: "2px dashed #ccc",
+        border: "2px solid #ccc",
         borderRadius: "8px",
         minHeight: "200px",
       }}
