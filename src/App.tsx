@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import BeautifulDnD from "./pages/BeautifulDnd";
 import DndKitPage from "./pages/DndKitPage";
+import ReactDndPage from "./pages/ReactDndPage";
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/beautiful-dnd" element={<BeautifulDnD />} />
+        <Route path="/react-dnd" element={<ReactDndPage />} />
         <Route path="/dnd-kit" element={<DndKitPage />} />
       </Routes>
     </Router>
