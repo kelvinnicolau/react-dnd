@@ -90,7 +90,7 @@ export default function Planos() {
     const { active, over } = event;
 
     if (!over) return;
-
+    console.log(active, over);
     const planId = active.id as string;
     const newStatus = over.id as Plan["status"];
 
