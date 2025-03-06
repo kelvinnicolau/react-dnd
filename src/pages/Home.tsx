@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-800 p-0">
+    <div className="flex flex-col items-center justify-center min-h-screen p-0">
       <h1 className="text-4xl font-bold text-blue-800 mb-8">
         Projeto de Testes de Drag and Drop
       </h1>

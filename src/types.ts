@@ -11,3 +11,9 @@ export type Column = {
   id: TaskStatus;
   title: string;
 };
+export type Plan = {
+  id: string;
+  status: TaskStatus;
+  title: string;
+  value: number;
+};

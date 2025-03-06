@@ -4,8 +4,9 @@ import Home from "./pages/Home";
 import BeautifulDnD from "./pages/BeautifulDnd";
 import DndKitPage from "./pages/DndKitPage";
 import ReactDndPage from "./pages/ReactDndPage";
-import "./styles.css";
 import Tasks from "./pages/Tasks";
+import Planos from "./pages/Planos";
+import "./styles.css";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/react-dnd" element={<ReactDndPage />} />
         <Route path="/dnd-kit" element={<DndKitPage />} />
         <Route path="/tasks" element={<Tasks />} />
+        <Route path="/planos" element={<Planos />} />
       </Routes>
     </Router>
   );
