@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from "react";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import DraggableItem from "../components/React-DND/DraggableItem";
-import DroppableArea from "../components/React-DND/DroppableArea";
+import DraggableItem from "../components-react-dnd-1/DraggableItem";
+import DroppableArea from "../components-react-dnd-1/DroppableArea";
 
 interface Item {
   id: string;
