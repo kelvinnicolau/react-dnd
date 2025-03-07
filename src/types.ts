@@ -16,4 +16,5 @@ export type Plan = {
   status: TaskStatus;
   title: string;
   value: number;
+  order?: number;
 };
