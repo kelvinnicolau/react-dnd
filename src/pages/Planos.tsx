@@ -129,8 +129,6 @@ export default function Planos() {
       return;
     }
 
-    console.log("teste");
-
     // Reordering within the same column
     if (activePlan && overPlan && activePlan.status === overPlan.status) {
       const oldIndex = plans.findIndex((plan) => plan.id === activeId);
